@@ -59,17 +59,17 @@ for our developers, users and anyone who comes into contact with ([Linkspreed ðŸ
 ## ðŸ“· UI
 
 
-### Privacy focused web analytics
+### Welcome
 <img align="center" alt="LinkLab" width="3000px" src="https://github.com/linkspreed/LinkLab/blob/main/screenshots/1.PNG" draggable="false" />
 
-### Analytics
+### Register now
 <img align="center" alt="LinkLab" width="3000px" src="https://github.com/linkspreed/LinkLab/blob/main/screenshots/2.PNG" draggable="false" />
 
-### Register now
+### Dashboard
 <img align="center" alt="LinkLab" width="3000px" src="https://github.com/linkspreed/LinkLab/blob/main/screenshots/3.PNG" draggable="false" />
 
-### Dashboard
+### Free Unlimited
 <img align="center" alt="LinkLab" width="3000px" src="https://github.com/linkspreed/LinkLab/blob/main/screenshots/4.PNG" draggable="false" />
 
-### Add a new website
+### Create campaign
 <img align="center" alt="LinkLab" width="3000px" src="https://github.com/linkspreed/LinkLab/blob/main/screenshots/5.PNG" draggable="false" />
