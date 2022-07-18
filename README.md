@@ -1,11 +1,11 @@
-# <img align="left" alt="Analytix" width="40px" src="https://analytix.tk/uploads/brand/ys17CmIE61mY5SrzlKBu2UbanlIvzwW2l7qmb9PX.png" draggable="false" /> Analytix ([Click to try 🚀](https://analytix.tk/))
+# <img align="left" alt="LinkLab" width="40px" src="https://linklab.ga/uploads/logo/9dc6a0c92e068ba9ed684f0ce66b434b.png" draggable="false" /> LinkLab ([Click to try 🚀](https://linklab.ga))
 
 LinkLab ⚙️💜 - create attractive 🎋 and powerful banners for your website 🌐
 
 
 
-## **[Changelog 💙](https://github.com/linkspreed/Analytix/blob/main/changelog.md)** **Check out the full Analytix changelog**
-## **[Special Works 👨‍💻](https://github.com/linkspreed/Analytix/blob/main/Special_Works.md)** **Take a look at what changes we are doing to Analytix besides development**
+## **[Changelog 💜](https://github.com/linkspreed/LinkLab/blob/main/changelog.md)** **Check out the full LinkLab changelog**
+## **[Special Works 👨‍💻](https://github.com/linkspreed/LinkLab/blob/main/Special_Works.md)** **Take a look at what changes we are doing to LinkLab besides development**
 
 
 <div align="center">
