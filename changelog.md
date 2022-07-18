@@ -1,154 +1,616 @@
-# 3.0.0 — 18 April 2022
-- Added new filters on all table lists (column order, order direction, per page limits)
-- Added the ability to set the Plan's position on the Pricing listings
-- Added the ability to set custom CSS code based on the color scheme
-- Added the ability to block adding a Website containing certain keywords using the Bad Words filter
-- Improved the codebase (code refactoring)
-- Improved the CSV export functionality (it now includes the URL where the report was generated from)
-- Improved the table lists filters (improved flexibility)
-- Improved the API Documentation
-- Improved the translation strings
-- Improved the SEO capabilities side-wide by adding in-file head tags for all public pages
-- Improved the iconography
-- Fixed not being able to edit a User that was under a recurring subscription
-- Fixed user's content being deleted when the user would get suspended
-- Fixed the API Documentation URL path not pointing to the correct location
-- Fixed the Plans not ending when being cancelled on Stripe and PayPal
-- Other minor improvements
+Update 17.1.0 - 23 April, 2022
 
-# 2.9.0 — 12 December 2021
-- Added the ability to exclude entire IP classes using CIDR notation
-- Added contextual menus on all table lists
-- Updated all the dependencies to their latest versions
-- Fixed an issue with specific currencies that would prevent the Checkout from working
-- Fixed several missing language strings
-- Other minor improvements
+Reworked and improved the language & dark mode switcher.
+Fixed Mollie annual payments not processing correctly.
+Other small improvements and fixes.
+Update 17.0.0 - 8 April, 2022
 
-# 2.8.0 — 27 September 2021
-- Added translation ability for the Page title and description
-- Fixed an issue preventing redeeming coupons
-- Fixed an issue preventing changing the user's plan when no ending date was defined
-- Other minor improvements
+Implemented an anti-phishing system code for emails sent out to users by the system.
+Implemented RTL support for emails & improved the email templates looks.
+Resend activation page will now be disabled if the email confirmation setting is disabled.
+Contact form, you can now reply-to via your email client directly via the sent email.
+Fixed URL slugs being able to have slashes in them and producing 404 not found when accessed.
+Fixed potential cookie consent CSS not loading on some servers.
+Fixed reset password not working for some particular emails & not logging the user in after the password change.
+Fixed bug when logging in with a custom language set, yet the user has another language to his account.
+Other minor fixes, clean-ups and improvements.
+Update 16.0.0 - 29 March, 2022
 
-# 2.7.0 — 13 September 2021
-- Added email notification on successful Stripe, PayPal and Coinbase payments
-- Improved the UI & UX of the Log-in, Register, Password reset, Contact and Page pages
-- Fixed an issue that would display all tax rates on Checkout before the user would select his country
-- Fixed an issue causing Checkout not to work when no Coupon was provided
-- Fixed an issue causing Checkout interval switcher not to work
-- Fixed the tracking ability not resetting when redeeming a plan
-- Other minor improvements
+Implemented the Teams system & released the 👨‍💻 Teams Plugin.
+Implemented cookie consent logging feature to store proof of given consent.
+Implemented cookie consent logging export to CSV.
+Implemented cookie consent settings link in the footer, so that people can change their given consent at all times.
+All user sessions will be logged out if the account changes password (security improvement).
+Fixed language preference not persisting when doing certain actions while logged in.
+Fixed language preference of a user being reset when re-logging in.
+Update 15.0.0 - 16 March, 2022
 
-# 2.6.0 — 5 September 2021
-- Fixed the Pricing not showing up on the Home page unless Stripe was enabled
-- Fixed not being able to create new Plans
-- Fixed the Page links from the Footer not showing their name
-- Other minor improvements
+Implemented Paddle payment gateway for one-time payments.
+Implemented new dedicated code redeeming page.
+Implemented the ability to add a close button to the Custom HTML notification.
+Fully reworked the account related pages for better looks and consistency over the altumcode products.
+Update 14.0.0 - 10 March, 2022
 
-# 2.5.0 — 3 September 2021
-- Added new payment gateway: PayPal (checkout using a PayPal account)
-- Added new payment gateway: Coinbase (checkout using a cryptocurrency)
-- Added new payment gateway: Bank (checkout using a bank transfer)
-- Improved the codebase (name convention refactoring)
-- Improved ARIA controls
-- Improved the Invoices (they are now immutable)
-- Improved the Installation process
-- Fixed the new Website form not including the Exclude URL query parameters form
-- Fixed the Stats API endpoint working with the website's URL rather than ID
-- Fixed an issue with passwords being trimmed when changed
-- Fixed several missing language strings
-- Other minor improvements
+Implemented campaign duplication feature.
+Implemented the new Custom HTML notification widget.
+Implemented RTL support for all notification widgets.
+Implemented the ability to change the font of any notification widget.
+Reworked the close button of all notification widgets, added the ability to change the color of the close button.
+Fully reworked the reviews notification widget looks, and added the ability to switch from random reviews to latest reviews.
+Reworked the latest conversion notification widget, added the ability to switch from random conversions to latest conversions.
+Improved consistency and looks of all notification widgets.
+Reworked the dashboard.
+Improved the whole landing page.
+The campaign pixel code will now come with a defer property, instead of async, for better & seamless integration with websites.
+Default font switched to the default sans-serif stack.
+Fixed payments list filters not working for all processors.
+Fixed payment generation issue in some special cases for a few payment gateways.
+Multiple other visual, functional improvements & bugfixes.
+Update 13.1.0 - 16 February, 2022
 
-# 2.4.0 — 26 March 2021
-- Added the ability to exclude URL query parameters from tracked pages
-- Improved the database structure (IDs are now unsigned)
-- Fixed several missing language strings
-- Other minor improvements
+Fixed various new translation system issues.
+Small other visual improvements.
+Product rebranding from socialproof to 66socialproof.
+Update 13.0.0 - 6 February, 2022
 
-# 2.3.0 — 20 March 2021
-- Fixed the Stats API endpoint not returning results
-- Fixed the Stats API endpoint returning a success response even on missing resources
-- Fixed the tracking ability not resetting when manually assigning a plan
-- Other minor improvements
+ℹ️ If you want to migrate your translated languages to the new system, use the migration tool.
+Fully reworked the Languages & Translations system for much better performance, handling and usability.
+Implemented Crypto.com one-time payment gateway.
+Fixed widget notifications not taking into account base user account language.
+Update 12.0.0 - 22 January, 2022
 
-# 2.2.0 — 25 February 2021
-- Added Cronjob for automatic cache deletion
-- Fixed the pricing plans not showing Unlimited when pageviews set to -1
-- Fixed Sort by on Stats pages not working on paginated tables
-- Other minor improvements
+Implemented user registration blacklist by country.
+Reworked the footer of the whole app.
+Reworked the plugin system so plugins won't lose their state anymore when updating.
+Improved UI for all tables on mobile.
+Improved UX workflow bug when skipping trial & introducing billing details.
+Improved responsiveness for account payments & logs pages.
+Improved color contrast in Dark mode.
+Fixed UI alignment issues on mobile.
+Fixed payment generation bug when using discount codes in some cases.
+Fixed & improved many other small UI issues.
+Update 11.0.0 - 2 January, 2022
 
-# 2.1.0 — 29 January 2021
-- Added the ability to toggle password visibility for Websites
-- Improved the password encryption method for Websites
-- Other minor improvements
+Implemented the ability to skip a trial when paying for a plan.
+Implemented the ability to set a custom 404 page from the admin panel.
+Implemented the ability to also export to PDF/print data from tables in the admin panel.
+Admin Codes - Implemented the ability to paginate, filter, export data.
+Admin Taxes - Implemented the ability to paginate, filter, export data.
+Improved the admin panel -> website settings -> main fields, separated them for more clarity.
+Improved the file upload error handling.
+Now reCaptcha and hCaptcha will follow the language that the user currently uses.
+Other small yet many improvements of the whole system.
+Fixed a few bugs related to the system.
+Update 10.0.0 - 17 November, 2021
 
-# 2.0.0 — 25 January 2021
-- Added PostCSS support
-- Added context menu on Stats pages
-- Added Delete option in the website's context menu on Dashboard
-- Improved the CSS filesize (removed all unused CSS rules)
-- Improved the API (added status code for the websites listing)
-- Updated all the dependencies to their latest versions
-- Fixed unknown countries not displaying an icon
-- Other minor improvements
+Implemented PayU one-time payments system.
+Implemented Yookassa one-time payments system.
+Reworked the admin panel announcements system.
+Implemented RazorPay one-time & recurring payments system.
+Implemented Mollie one-time & recurring payments system.
+Implemented Paystack one-time & recurring payments system.
+Implemented an Auto Cleanup functionality for old, inactive users. Can be activated and configured in the admin panel.
+Implemented email notifications for old & soon-to-be-deleted users, if the Auto Cleanup functionality is enabled.
+Reworked & improved the API documentation page.
+Updated composer dependencies to the latest versions.
+Other bugfixes & improvements.
+Update 9.0.1 - 27 October, 2021
 
-# 1.9.0 — 14 January 2021
-- Updated all the dependencies to their latest versions
-- Fixed the Developers link missing from the footer
-- Other minor improvements
+Improved notifications accessibility.
+Improved performance on the Pixel Tracking functionality (1 less query).
+Fixed analytics / data tracking for the pixel campaigns not working properly in some cases.
+Fixed small pages system related issue.
+Update 9.0.0 - 19 October, 2021
 
-# 1.8.0 — 5 January 2021
-- Added the ability to hide the Default (free) plan
-- Improved the tooltips on charts (added dark mode support)
-- Other minor improvements
+Implemented the ability to duplicate a notification.
+Implemented the ability to set a "Thank you URL" page for the Emoji Feedback, Score Feedback & Text Feedback notifications.
+Implemented the ability to add image alt attributes for widgets, for better accessibility of the notifications.
+Improved the way Pixel analytics are sent back to the backend for a more modern & performant solution.
+Improved the invoices system, now the invoices are immutable.
+Reworked the Redeemable Codes system. Redeeming is happening now only from the Checkout page.
+Discount/Redeemable codes can now be applied on a per plan basis (more flexibility).
+Reworked parts of how the taxes system is working in the admin panel.
+All the data tables are now ordered by the date, descending (previous ascending).
+Many other code cleanups, improvements and bugfixes.
+Update 8.0.0 - 12 September, 2021
 
-# 1.7.0 — 2 January 2021
-- Fixed the monthly email reports not including the stats count
-- Fixed sending email reports when no websites had email notifications enabled
-- Other minor improvements
+Implemented Coinbase (crypto) payments.
+Fully reworked the Trial system. Now you can set how many days you want to give out on a per-plan basis.
+Implemented the ability to display, edit and set a Custom plan on the plans section, via the admin panel.
+Implemented the ability to highlight a particular plan with a particular color via the admin panel.
+Implemented Twitter login.
+Fully reworked the social logins workflow for better performance and user experience.
+Reworked the admin panel plan update, create & user update pages for consistency purposes.
+Improved the way admin panel plans are displayed.
+Fully reworked the whole admin panel - website settings page, which now avoids some small, yet annoying bugs & UX bugs.
+If you now redeem a plan that you already have on your account, the redeemed plan days will be now added on top.
+Fixed cron job bug where in certain cases it would get stuck checking domain names.
+Many code cleanups, improvements and other small bugfixes.
+Update 7.1.0 - 8 August, 2021
 
-# 1.6.0 — 1 January 2021
-- Improved the Export functionality (added additional information to the file and filename)
-- Updated all the dependencies to their latest versions
-- Other minor improvements
+Implemented the ability to enable/disable search engine indexing from the admin panel.
+Now created pages from the admin panel can contain utf8 characters in the URL alias.
+Fixed installation bug.
+Update 7.0.0 - 6 August, 2021
 
-# 1.5.0 — 29 December 2020
-- Added Total stats for tables on each stats category
-- Added new social network source (Pinterest)
-- Added the ability to search trough stats resources via API
-- Added the ability to sort the stats resources via API
-- Added the ability to set custom pagination results value via API
-- Improved the JS tracking code (reduced its size even further)
-- Improved the SEO for the Home page
-- Fixed an issue that was reporting pageviews as visitors in a specific scenario
-- Fixed several timestamps showing wrong minutes value
-- Other minor improvements
+Implemented Google login.
+Implemented admin panel bulk deletion feature for Campaigns, Notifications.
+Completely remade the PayPal One Time payments with the new V2 API.
+Completely remade the PayPal Subscription payments which fixed a few small UX issues.
+Implemented the ability to view & delete all the user logs from the Admin Panel, filter them, export them via CSV and JSON.
+Implemented user logs device type, country, and operating system tracking for important activities of an account.
+Implemented the ability to view all the used coupons of a particular user from the admin panel.
+Implemented the ability to export Account Payments to JSON and CSV.
+Implemented the ability to export Account Logs to JSON and CSV & filter them.
+Reworked the ability to send SMTP test emails from the admin panel for testing.
+Fully reworked the whole admin panel
+website settings page, which now avoids some small, yet annoying bugs & UX bugs.
+Reworked the admin panel
+pages part for a better UX experience.
+Improved the consistency of the success messages across the platform, while reducing the size of the translation file.
+Fixed small taxes calculation issue.
+Various other improvements, code cleanups, and small fixes.
+Update 6.3.0 - 12 July, 2021
 
-# 1.4.0 — 16 December 2020
-- Added decimal support for Events that have a unit value
-- Added support for both www and non-www tracking with a single domain entry
-- Fixed the live chart showing NaN when the value of visitors was 0
-- Other minor improvements
+Implemented RTL support.
+Implemented the ability to set the number of days that notification statistics will be kept for, per plan from the admin panel.
+Implemented the ability to enable/disable the Referral system per plan from the admin panel.
+Reworked the Pro Pack Plugin to work with the new Plugins system.
+Update 6.2.0 - 17 June, 2021
 
-# 1.3.0 — 15 December 2020
-- Improved email template (added support for wide aspect logos)
-- Improved the checkout process (you can now cancel the coupon adding process)
-- Fixed an issue that was preventing the Check cronjob from executing
-- Fixed the tracking ability not resetting when subscribing to a plan
-- Other minor improvements
+Implemented email reminders for accounts that are on one-time payments (not recurring) 3 days before expiration.
+Implemented the first "Affiliate" plugin, available to purchase - Affiliate plugin
+Update 6.1.0 - 11 June, 2021
 
-# 1.2.0 — 12 December 2020
-- Fixed an issue preventing the deletion of websites
-- Fixed an issue that removed the js source path from the tracking code
-- Other minor improvements
+Fully remade how the multi language system works which results in better UX and SEO.
+Implemented the first version of the Plugins Management system.
+Implemented the first "Offload" plugin, available to purchase - Offload plugin
+Implemented the ability to change the plans order via the admin panel.
+Fixed a few small bugs.
+Update 6.0.0 - 31 May, 2021
 
-# 1.1.0 — 10 December 2020
-- Added support for CDN hosted tracking code
-- Added automatic language switching when the language is availabl
-- Added modal to the Export functionality
-- Improved RTL support
-- Fixed stats data not being removed when a user is being deleted
-- Fixed stats data not being removed when a user is being deleted
+Implemented admin panel statistics total numbers per selected date range.
+Fully reworked the admin statistics page and separated them for better performance.
+Implemented new admin panel users management
+bulk selection & deletion feature.
+Implemented new admin panel Plans API (Read).
+Reworked the checkout flow (better UX) for when the user is required to fill in his billing details.
+Improved all the emails that are being sent (activation, password reset..etc) for consistency.
+Updated the bootstrap library to the latest stable release of 4.6.
+Added the last execution date of the Cron Job in the admin panel.
+Fixed various small bugs throughout the product.
+Update 5.0.0 - 10 May, 2021
 
-# 1.0.0 — 1 December 2020
-- Initial release
+Implemented the announcements system from the admin panel where you can set short text announcements for your users.
+Implemented the ability to set an opengraph image for the homepage via the admin panel.
+Implemented the ability to switch between raw html content & wysiwyg editor for the admin panel pages system.
+Implemented Campaigns API - Get list, get one.
+Implemented Notifications API - Get list, get one.
+Implemented Payments API - Get list, get one.
+Implemented Logs API - Get list.
+Implemented User API - Get details.
+Implemented User API Documentation page.
+Implemented the ability to enable/disable the API usage based on the plan settings.
+Implemented a new way to update the database.
+Fixed/improved various other small things.
+Update 4.0.0 - 14 April, 2021
+
+Implemented the Admin Notifications Management page, where you can see all the created campaigns, filter them, export them and also delete any of them.
+Implemented the Admin Campaigns Management page, where you can see all the created campaigns, filter them, export them and also delete any of them.
+Implemented hCaptcha, as a great alternative to Google Recaptcha.
+Implemented Admin API Users List endpoint.
+Fully reworked all the statistics related charts to group results by Years, months, days & hours based on the selected date range.
+Some of the forms were remade, now displaying better error messages based on which field generated that error (in case of one).
+Improved UX for the Reset Password, Resend Activation, Lost Password pages.
+Separated the language JSON file into 2 of them: one for the regular user, one for the Admin panel. This change was done for better performance & also for the fact that most people do not need to also translate the admin panel.
+Reworked notification settings: now fields can be empty where it makes sense, for better customizability of notifications.
+Improved the Video notification to accept direct YouTube video links.
+Replaced the TinyMCE library with a faster, more lightweight one for the admin panel pages system.
+Reworked the Admin Dashboard.
+Updated all product dependencies to their latest versions, where available.
+A ton of other improvements, new features, bug fixes, and code cleanups.
+Update 3.1.0 - 28 February, 2021
+
+Implemented the ability to view stats by hours for the Admin Statistics page.
+Implemented the ability to select an "All time" date picker range for stats.
+Improved admin panel CSV and JSON exports: now data from all the pages will be exported at once.
+Implemented bot detection, notifications will not display to potential bots anymore.
+Now the default branding can contain HTML code as well (set in the admin panel).
+Completely reworked how the notification statistics are stored for better performance.
+The IP detection and Country/City detection is not based on an external API anymore, it was fully remade to be done on its own.
+Various other improvements, new small features, and bugfixes.
+Update 3.0.0 - 31 January, 2021
+
+Implemented the ability to set notification URLs to open in a new tab or not.
+Implemented the ability to rename created notifications.
+Implemented the ability to set delays between the latest conversions and random reviews notification widgets.
+Implemented the new Admin API for the users resource (Create, Read, Update, Delete, One time login).
+Implemented a new documentation page for the Admin API.
+Implemented the ability to enable/disable the Captcha based on individual pages in the admin panel website settings.
+Implemented the ability for the Admin to export to CSV and JSON the users list.
+Implemented the ability for the Admin to export to CSV and JSON the payments list.
+Implemented the ability for the Admin to set up Webhook URLs events for new user registrations and user deletions (helpful when you want to automatically sign up emails to a newsletter on registration for example).
+Implemented the ability to set the SMTP sender name from the admin panel.
+Improved the performance of the Pixel, Cron, and Sitemap pages.
+Fully reworked all the Admin Panel tables (Users, Payments, Websites).
+Implemented filtering & ordering system in the Admin Panel tables (Users, Payments, Websites).
+Improved the look of charts for Campaign and Notification statistics.
+Implemented better breadcrumbs for campaign and notification pages.
+Improved the payment page when users are prompted to fill in the billing details.
+Discount codes can now be created for hidden plans as well.
+Discount & redeemable codes can now be shared via a link for better convenience.
+Multiple other fixes, code cleanups, and improvements.
+Update 2.2.0 - 6 December, 2020
+
+Implemented the ability to set the default theme style (light/dark) from the admin panel.
+Implemented a filtering feature for the Account Payments page.
+Implemented a filtering feature for the Dashboard page (for campaigns).
+Implemented a filtering feature for the Campaign page (for notifications).
+Implemented the Facebook register button on the Register page as well.
+Fixed potential timezone problems throughout the product.
+Other small improvements and code cleanups.
+Update 2.1.0 - 26 November, 2020
+
+Implemented the ability to set the default notification widget branding from the admin panel.
+Improved performance of the website when a user is logged in.
+Implemented htaccess browser caching rules for images, css and javascript.
+Highly improved the performance of the Pixel code.
+Fixed problem where accounts wouldn't be able to change their email in some cases.
+Update 2.0.1 - 19 October, 2020
+
+Fully removed and replaced the previous datepicker with a better one.
+Improved the looks and functionality of the admin statistics page.
+Fixed Account Settings page displaying billing form when not needed.
+Fix pages created from the admin panel not being ordered properly.
+Fix invoices where inclusive taxes were not calculated properly.
+Fixed potential problems on pixel tracking in some cases.
+Update 2.0.0 - 25 September, 2020
+
+Fully reworked & redesigned the checkout process.
+Implemented the ability to view invoices for all the payments via the admin panel.
+Implemented the ability to delete payment logs from the admin panel.
+Implemented the ability for admins to create & configure taxes from the admin panel.
+Implemented the ability to attach different taxes for any paid plan.
+Implemented the ability to enable / disable the taxes & billing system completely from the admin panel.
+Implemented email verification when an already existing account is changing their email address to another one for better security.
+Updated bootstrap to the latest version 4.5.2.
+Updated jquery to the latest version 3.5.1.
+Reworked the user account deletion and made it into a new, separated page.
+Improved how certain pages look when no data is available.
+Added a tooltip when viewing plan features to see exactly which notifications are enabled under a particular plan.
+Fixed Admin User Update not being able to set an account to a disabled status.
+Fixed character encoding issue when displaying dynamic data in the Latest Conversion notification.
+Fixed Campaign Statistics form submissions not properly showing up and counting.
+A lot of other fixes, code cleanups, and improvements that don't need mentioning.
+Update 1.8.2 - 5 September, 2020
+
+Implemented the ability to have custom Invoice number prefix.
+Updated Stripe payment handler to support the latest API version of Stripe.
+Updated Stripe PHP SDK to the latest version.
+Replaced Google's Favicon provider (for displaying website favicons) with a more privacy-friendly solution from DuckDuckGo.
+Update 1.8.1 - 6 August, 2020
+
+Fixed admin package update not properly working when clicking on update all subscribers button.
+Fixed admin dashboard when the payment system is not enabled for regular license holders, in some cases.
+Fixed admin users management user deletion not working.
+Update 1.8.0 - 4 August, 2020
+
+Implemented the ability to ban a user from the Admin Panel.
+Implemented pagination for the Campaigns list, Notifications list, Account Payments, Account Logs, Notification Data pages.
+Implemented the ability to offer Lifetime deals to your customers.
+Implemented the ability to turn off certain Payment Frequencies per Plan (from the admin panel).
+Implemented a dedicated "Thank you" page after a successful payment with access to payment-related data from javascript to also make external affiliate tracking much more easy to implement.
+Implemented the ability to take on Offline payments.
+Implemented the Statistics page per Campaign.
+Implemented new controls over where you can trigger notifications to appear (Does not match exact, Does not contain, Does not start with, Does not end with).
+Reworked the Admin Panel User View page to show more details and have direct links to users related content.
+Reworked the Admin Panel Plan Update page to have a more clearly defined actions when updating a plan.
+Improved Admin Codes, Pages, Pages Categories to show a more beautiful default view when no codes are created.
+Improved the Admin Panel Dashboard responsiveness and widgets for mobile.
+Improved a lot of other parts in the Admin panel to be more user friendly.
+Reworked how the Dark / Light switcher is working.
+Reworked parts of the Packages choosing page, Payment checkout page and improved them.
+Reworked parts of the footer to be more responsive and look better.
+Improved the speed of execution of the following pages: Sitemap, Generation of the simple captcha, Stripe & Paypal Webhooks.
+Reworked how some stats are stored in the database so that no IP's will be stored anymore (regarding notification/campaign statistics).
+Improved one of the tracking related tables in the database so that it wont store any extra data that is not needed to be more space-efficient and more performant.
+Removed 50% of the size of the FontAwesome library by only using the needed fontawesome brand icons (~600 kB saving).
+Fixed Facebook login not tracking the Country of the user on registration.
+Fixed Free and Trial plans still showing up when they are set to "Hidden".
+Upgraded phpmailer, recaptcha, stripe, fontawesome libraries to the latest versions.
+Ads which are set from the admin panel will now not show on the Login, Register, Lost password, Resend activation and Reset Password, Plan selection, Payment and Thank you payment pages.
+Various other code cleanup, improvements and looks improvement throughout the product.
+Update 1.7.7 - 20 June, 2020
+
+Fully reworked how the Pixel JS code is generated from a user-unique based pixel to a "per-campaign" generated one in order to properly take advantage of the caching capabilities of the pixel and avoid potential problems that the old system might have caused. Also, the system is more clear to use now and more straight to the point.
+Improved the visual presentation on the Admin Page Create & Update and Admin Page Category Create & Update.
+Improved performance on the Dashboard page.
+Improved the Notification Creation experience.
+Fixed Countdown collector notification not properly showing some custom colors.
+Fixed Engagement Links notification bug.
+Fixed Coupon notification responsiveness in small mobile phones.
+Fixed Admin Page Update problem not deleting the cache after the update.
+Fixed Reset Password function not resetting the 2FA token as well. Now it will completely remove the set 2FA Token when resetting the password.
+Fixed UTF-8 characters issue when sending emails via the default server email.
+Fixed cookie warning that would show up in the console of the websites that the pixel code would be added to.
+Update 1.7.6 - 31 May, 2020
+
+Fully reworked the Admin Statistics page with a new structure and more statistics.
+Fully redesigned the Admin Panel.
+Fixed Stripe payments not counting the usage of discount codes when a payment happens.
+Fixed Facebook Login not notifying the admin when the user signed up.
+Fixed Paypal Recurring Annual payments bug.
+Fixed Admin User Create function not taking into consideration the default timezone and language when creating the user.
+Fixed Admin Settings page being slow in certain cases when saving data.
+Other various improvements and fixes.
+Update 1.7.5 - 8 May, 2020
+
+Implemented a new option for the Display Frequency option for notifications: Once per browser.
+Implemented the ability to hide packages from the frontend while still having them active.
+Reworked the installation process and documentation pages design to a much cleaner one and to resemble the new logo of the AltumCode brand.
+Fixed bug in the Notifications where the user would not be able to click the Branding URL when the user would have a Notification URL inserted for the whole notification.
+Fixed live counter not working.
+Fixed the Auto Capture function for the Latest Conversion notification which would not work properly in some cases.
+Fixed potential problems with Stripe recurring payments.
+Fixed admin statistics page date selector not working.
+Renamed the Install script page URL from '/install' to '/install-script' to avoid problems after installation if you would not delete the /install folder (which handles the installation of the product).
+Update 1.7.4 - 29 April, 2020
+
+Now the notifications will not be blocked by any known adblockers anymore. They were previously blocked because of the external API which was used in order to get IP and location data and would break the script.
+Improved the way notification data is retrieved and shown in order to optimize the loading speeds when a lot of conversions are stored in a notification.
+Conversions that are tracked from Auto Capturing forms can now (in some situations) track the City and Country code as well. Both variables are usable in the title of the latest conversion notification.
+Added 3 new cards in the notification statistics page which shows you the total amount of Impressions, Hovers and Clicks for the selected timeframe.
+Reworked the look and feel of the documentation.
+Reworked the look and feel of the installation process.
+Updated FontAwesome library to the latest version 5.13.0.
+Updated Bootstrap library to the latest 4.4.1.
+Fixed Facebook Login not sending out proper notification emails to admins.
+Other small improvements and fixes.
+Update 1.7.3 - 23 April, 2020
+
+Fixed redeemable codes not working.
+Fixed footer social icons showing up when they shouldn't.
+Update 1.7.2 - 22 April, 2020
+
+Implemented Two-factor authentication option for users to use with their authenticator app.
+Implemented Dark mode.
+Improved the Pixel, Pixel Tracking and Pixel Webhook controllers performance by avoiding unnecessary calls to the database.
+Other various improvements throughout the product.
+Fixed Pixel not waiting for the CSS to load before displaying the notifications.
+Fixed variables in the usage for the Latest Conversion notification.
+Fixed invoice zip code not being able to have letters as in some countries it is required.
+Fixed the system not sending out emails of "payment received" confirmation to the users after they purchase a package.
+Fixed paypal payment potential problem when using coupon code for non-decimal currencies.
+Fixed pages cache not being cleared when deleting a page from the admin panel.
+Update 1.7.1 - 19 March, 2020
+
+Fixed cache not being changed after saving the Free/Trial package settings.
+Fixed Conversions counter and Live Counter notification settings.
+Improved the look on the register page to look similar with the login.
+Update 1.7.0 - 18 March, 2020
+
+Implemented the ability to cache the Pixel code generated for each user for X seconds (set from the admin panel) to highly improve loading speeds and have fewer calls to the database.
+Implemented caching system to cache some database queries and speed up the whole website.
+Implemented country detection on user login, which the admin can see in the admin panel.
+Implemented the ability to choose a background pattern for all the notifications.
+Implemented the ability to either show the notification on desktop size screens or not.
+Implemented the ability to remove the button on the Video notification if no text is entered for the button.
+Implemented the ability to disable notifications tracking completely from the admin panel in case that statistics are not needed.
+Redesigned the landing page hero section to a more modern one.
+Redesigned the login page to a more modern looking one.
+Improved Paypal recurring payments to instantly accept the first payment.
+Improved visuals on many other parts of the product.
+Improved the way the notification settings inputs are placed and shown in the page.
+Improved the way the logged in users are verified to improve performance.
+Improved performance on the Account Payments page.
+Upgrade pickr library to the latest 1.5.1 version.
+Removed filter on what characters can be used in the name field for the Account Name in order to accept special characters.
+Enabled the use of Dynamic variables for the Image and URL field on the Latest conversion notification.
+Now all the notifications will take into consideration the language of the user that created them and display the language accordingly.
+Fixed being able to create 100% discount codes, use the redeemable code creation instead for "100%" discount codes.
+Fixed datepicker translations when using utf8 characters.
+Fixed pages system bug where the external links would not link properly.
+Fixed admin notification emails for new payments.
+Fixed various timezone inconsistencies.
+Fix description colors not saving for 3 notification types.
+Fixed other small things throughout the product.
+Fixed bug on stripe payments higher than 999.
+Update 1.6.0 - 23 January, 2020
+
+Added support for Punncycode campaign domains (domains which contain UTF-8 characters).
+Remade the dates translation mechanism to not be based on the server settings anymore but to be fully translatable from the language file.
+Added the ability for the user to change his timezone according to his needs.
+Added the ability to the admin to login as any user on the system directly via the admin panel.
+Added the ability to enable only the One time payment or Recurring or Both from the admin panel.
+Implemented the "Codes" system to create Redeemable and Discount codes from the admin panel.
+Replaced Account Details page with 2 new separate pages: Account Payments and Account Logs.
+Added Account Package page where the user gets more details about his current package his upgrading possibilities.
+Reworked almost the entire Admin panel look making it more user friendly, visually pleasing and fixing other visual bugs.
+Added the list of Campaigns a user has in the Admin User View page.
+Implemented payment notifications for the user when a payment has been processed.
+Implemented the ability to turn off the Notification shadow.
+Implemented the ability to set the Border width and Border color for each notification.
+Implemented the ability to change the animation of the notifications when entering and exiting the screen.
+Implemented pages categories.
+Reworked and improved the pages system.
+Implemented "Resources center" where you can see the most popular pages and categories for all the pages.
+Improved the way the Notification Create page looks.
+Improved the way the Notification settings, statistics & data page looks.
+Improved the way the Dashboard campaigns look.
+Improved the way the Campaign page looks.
+Now the track_logs table will automatically clean itself via Cronjob by removing non-used records older than 30 days to improve performance and save database size.
+Restructured the Account settings page.
+Now the datepicker is fully translatable as well.
+Highly improved the processing speed to any actions related to Campaigns, Notifications & Notification statistics.
+Refactored the way campaign domains are parsed when people add campaigns. Now it will accept any type of URL with any types of characters included in the URL.
+Invoice header buttons now remove when printing.
+Improve the email sending feature by adding the "Alternative body" to improve the email receiving rates (Thank you Kevin for the suggestion).
+Improved the way notifications display on Login, Lost password, Reset password, Register, Resend activation pages.
+Improved the Registration workflow so that if the Free package is deactivated but the Trial is enabled, the user will automatically get the trial package.
+Remade the datepicker field and improved the design of the datepicker to feel more integrated.
+Translated other small not yet translatable strings on the site.
+Improved the look of the homepage.
+Reworked all notifications to fit the Close button properly.
+Notifications now will not show up if you are on "Print" mode to avoid sticking up when shouldn't.
+Fixed last activity field of the user not being updated properly.
+Fixed the way tooltips show on Switch controls (on/off).
+Fixed some inputs not able to be copied (webhook urls and admin settings cronjob url).
+Stripe payments formatting for currencies which are considered "zero-decimal currencies" (ex: JPY).
+Update 1.5.4 - 21 December, 2019
+
+Refactored the look and function of the Admin Page Create / Update pages and included the ability to have hidden pages (not be shown in the footer or top menu).
+Implemented 2 extra custom fields for the invoice system. Helpful when the provider must include extra details in the Invoice.
+Latest Conversion notification now accepts variables for the description too, instead of only the Title.
+Latest Conversion notification now accepts Webhook Requests with JSON payload, instead of only Form Posts.
+Fixed emails not being sent properly when sending with the default Webhost mail function.
+Fixed Admin Panel visual bugs on all the data listings (more responsive now).
+Improved Paypal & Stripe payment handling - Now the system can receive payments from a subscriber even if the original pricing of the chosen package has changed, this is done so that the user can still pay the original amount that he subscribed for.
+When a user changes a Package, the previous subscription will automatically cancel to stop further payments from the old package.
+Deleting a Package from the Admin Panel will not automatically cancel everyone's subscription which have that package. (they will still have the package for the period they paid for).
+Improved the registration flow for users which chose a different language than the default to automatically assign the chosen language for the new registered account.
+Reworked the Email Activation system to accept any type of email (previous: emails with "+" signs would not work).
+Improved Pixel CSS width of notifications on mobile screens.
+Improved many other parts of the system in the backend.
+Update 1.5.3 - 21 October, 2019
+
+Implemented the ability to fully disable/enable the payments system.
+Added Trigger & Duration of the Notification detail in the Campaign Notifications List page.
+Improved Pixel code behaviour to detect Ajaxed page changes as well ( helpful for sites that have dynamic content loading and page changing without actually triggering a traditional page change ).
+Implemented Randon Review Count Field to be able to specify how many reviews to show ( instead of only 1 ).
+Random Review Notification - Inserting new review: stars are no longer mandatory to be specified.
+Live Counter, Random Review Notifications visual improvements on smaller screens.
+Fixed Bug where the Full Name of the user would be stripped of spaces after registration.
+Other changes..
+Update 1.5.2 - 2 October, 2019
+
+Invoicing System Implemented.
+Replaced Email Templating of Activation and Reset Password Email and made them editable from the language file to make them multilangual ready.
+Implemented user based language change ( good for deciding what language to use when sending mails to the user ).
+LostPassword now sends user language based mails.
+ResendActivation now sends user language based mails.
+Notification New Data Email now sends user language based mails.
+Login, Register, Lost Password, Resend Activation, Reset Password pages now are detached from the header and footer for a better UI and UX.
+Register page completely redone and improved.
+Login page completely redone and improved.
+Lost Password page completely redone and improved.
+Resend Activation page completely redone and improved.
+Reset Password page completely redone and improved.
+Added display CSS Rule to the footer of the notifications to avoid it getting removed by custom css on the site.
+Trigger Type on change, change placeholder as well.
+Improved pixel css resetting to not collide with styles on people's pages.
+Notification Settings border radius will now show a preview of how it would look like before saving.
+Fixed language switcher redirection issues when product is installed on a subfolder.
+Fixed Pixel Tracking in some particular campaign settings and domains.
+Update 1.5.1 - 24 September, 2019
+
+Campaigns creation & update bugfixes.
+User deletion bugfix.
+Fixed Notification Page Contains Trigger not being able to be chosen.
+Update 1.5.0 - 21 September, 2019
+
+Implemented "Page Contains" Display Trigger for Notification.
+Implemented Conversions Count for Latest Conversion and the ability to auto rotate.
+Implemented the ability to use variables in the title of the notification for Latest Conversion.
+Implemented new input to Collectors where users can enter their email and get the new conversions data directly to their email.
+Campaigns domains now will automatically work on the "www." subdomain as many people were confused about this. ( introducing the domain in the campaign and notifications would not show up because the website is actually accessed on the www. subdomain and not the root domain ).
+Campaigns now have an option to trigger notifications and to work on all the subdomains of the specified domain instead of being only locked to a particular domain or subdomain.
+Campaigns can now be edited.
+Notifications Data can now be exported to JSON.
+Many overall UI and UX improvements.
+Many overall code cleanup and performance improvements.
+Implemented Notification Settings Border Radius.
+Added Gravatar of the User to display in his account settings page and in the menu.
+Social Share Notification will now automatically default to the page where the notification is shown for sharing url if no specific url is present.
+Display Triggers for Notifications now have a limit of 10 to avoid spam.
+Fixed Last Conversion Notification not showing the proper conversion date.
+Fix problem that can appear on users which have Packages that do not exist / get deleted.
+Update 1.4.4 - 25 August, 2019
+
+Added TOS and Privacy Policy checkbox requirement when purchasing a package.
+Added option to disable the registration of the site.
+Fix ads not showing when they should.
+Update 1.4.3 - 18 August, 2019
+
+Now the Pixel will not work for Accounts that are not active (disabled).
+Improved the IP logging of the user in some cases where it would not be detected properly.
+Added back the Header & Footer Ads to be displayed in the front end.
+Other behind the scenes changes.
+Update 1.4.2 - 9 August, 2019
+
+Fixed bug where the Pixel Webhook was not there anymore.
+Pixel Webhook now parses the conversion data if location is sent as 'city', 'country' and 'country_code' with the proper values of the conversion ( optional ).
+Updated animate.css library to its latest version.
+Cleaned up some other small files.
+Update 1.4.1 - 7 August, 2019
+
+Fixed bug where the Recaptcha would not show up on the Register page.
+Fixed bug where Paypal One Time payments would not be fully registered by the system.
+Fixed bug where the Trial Package would not properly start when activated.
+Fixed bug where the activation email would be a 404 link.
+Cleaned up more parts of the new system.
+Update 1.4.0 - 4 August, 2019
+
+Framework fully reworked from scratch ( To a better structure that allows more expandability, cleaner code and better maintenance for the future ).
+New: Request Collector Notification.
+New: Countdown Collector Notification.
+Added a required checkbox on the Register page linking the Privacy Policy and Terms and Conditions.
+All the "Collector" Notifications now have the option to enable and show an agreement Checkbox for GDPR purposes.
+All the "Collector" Notifications Data ( Conversions ) are trying to get the Location of the user that converted and show it in the "Data" tab of the Notification page.
+All the Packages now can be configured to allow users to use only specific notification types per package or all of them.
+Facebook Register will now check for Facebook Accounts that do not have emails attached to their account and handle it properly.
+Resend Activation Page Bugfix where it would not work to send activation emails.
+Fixed bug where the Recurring Payment option for paypal would not show up on certain conditions.
+Fixed bug where on certain conditions the pixel code would not properly recognize a domain / campaign.
+Fixed bug where the branding of the Pixel would not come to default if a user comes from a package that enables custom branding to a package that does not.
+Coupon Code Notification is now overall smaller as it was too big previously.
+Fixed visual problem with Random Review Notification after saving new settings where it would not show the Preview properly after.
+Fixed very rare problem on certain servers where the Pixel code would not want to execute.
+Improved the fonts priority of the notifications.
+Updated Bootstrap library files to the latest 4.3.1.
+Updated FontAwesome library files to the latest 5.10.0.
+Many other things improved, fixed and cleaned up in the code.
+Update 1.3.0 - 18 July, 2019
+
+New Notification: "Conversions Counter".
+New Notification: "Random Review".
+New Notification: "Emoji Feedback".
+New Notification: "Score Feedback".
+New Notification: "Cookie Notification".
+New: "Display Mobile" option for all notifications. If unchecked, the notifications will not be displayed on smaller screens.
+New: Implemented Paypal Recurring Payments ( check documentation on how to set it up ).
+Index image refactoring to make it not collide with the actual header text.
+Added Button Highlights on the Dashboard where the Install Script would blink if the pixel code is not installed and the Add Campaign button would blink if there are no Campaigns created yet.
+Improved and fixed certain bugs on Stripe Webhook processing.
+Improved the styling of the pixel css for cases where the website css would interfere with the Pixel Css, making notifications look different on other websites ( in some cases ).
+Rearranging the Triggers and Display tabs content of the Notification Settings page to make more sense and be more intuitive.
+Fixed potential problem with routes being handled on a windows environment.
+Other several code cleanups and improvements.
+Update 1.2.0 - 3 July, 2019
+
+Latest Conversion Notification - Added the ability to try and automatically parse converted data name to use in the Notification instead of the default text.
+Added the ability to import / create your own conversions right from the Conversions Tab.
+Added the ability to delete conversions.
+Facebook Login will now try to match the email address with an existing account and log him in.
+Improved the pixel code for slow websites.
+Improved and cleaned up different parts of the system on the backend.
+Bugfix on Facebook Login / Registration where it would not properly create / login the account after the 2nd try.
+Bugfix on Pixel where the notifications would not show up if the Trigger All Pages option was disabled.
+Update 1.1.2 - 2 July, 2019
+
+Added a form input validator for the Add Campaign Modal to help people enter the correct value.
+Now the login page will automatically redirect to the dashboard if the user is already logged in.
+Update 1.1.1 - 30 June, 2019
+
+Minor bugs fixed
+
+Update 1.1.0 - 29 June, 2019
+
+Implemented Custom Index URL ( to replace the index landing page with a custom one ).
+Big Database Improvement for notifications tracking tables to reduce the size of the database on long term.
+Added Last Activity Records in the Account Details page.
+Improved Responsiveness on the Index, Dashboard and Campaigns page.
+Notification Widgets Fixed Positioning for Top Center, Middle Center and Bottom Center.
+Live Counter Notification Bugfix where it would show the notification even though the "minimum visitors" setting is not reached.
+Other behind the scenes improvements.
+Improved the numbers formatting to use the decimal and thousands separator configured from the language file.
+Initial release - 27 June, 2019
