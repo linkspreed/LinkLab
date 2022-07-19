@@ -1,3 +1,27 @@
+## Update 18.0.0 - 19 July, 2022
+
+- Implemented the new Blogging system.
+    - All posts & categories are added to the sitemap.
+    - page with filters, pagination & bulk deletion features.
+    - categories page with filters, pagination & bulk deletion features.
+    - Good looking public blog page with recent posts, categories widget & popular posts widget.
+ - Implemented Teams API for managing everything Teams system related.
+ - Reworked the Paddle implementation to work with the new API changes.
+ - Reworked the Affiliate system earnings percentages.
+ - Reworked the login screen when using two factor authentication for a cleaner look.
+ - Reworked the Affiliate system referral URL to work on any kind of internal URL.
+ - Implemented the ability of auto language detection.
+ - Implemented statistics reset button for campaigns and notifications.
+ - Implemented the name field for email collector notifications.
+ - Implemented Click & mouse over triggers for notifications.
+ - Implemented CSV import for the Data page of notifications.
+ - Reworked and improved the Sitemap to include more pages, dynamically.
+ - Improved the pages resources center UI & fixed small bugs.
+ - Added a sidebar to the blog post page as well for visual & consistency purposes.
+ - Refactored a lot of code, resulting in less translation strings for common recurring words.
+ - Refactored all deletion modals for consistency purposes, resulting in less code and less translations.
+ - Multiple other code cleanups, small improvements and bugfixes.
+
 Update 17.1.0 - 23 April, 2022
 
 Reworked and improved the language & dark mode switcher.
