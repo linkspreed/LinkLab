@@ -1,4 +1,7 @@
 ### 23.10.2022 (announcement LinkLab)
+- We are now starting the launch of v19.0.0.
+
+### 23.10.2022 (announcement LinkLab)
 - The server and code for the new version are now ready for launch.
 
 ### 23.10.2022 (announcement Linklab)
