@@ -1,3 +1,6 @@
+### 23.10.2022 (announcement LinkLab)
+- The server and code for the new version are now ready for launch.
+
 ### 23.10.2022 (announcement Linklab)
 - We will release **Linklab** v19.0.0 now. 🙃
 
