@@ -1,3 +1,6 @@
+### 23.10.2022 (announcement Linklab)
+- We will release **Linklab** v19.0.0 now. 🙃
+
 # 19.07.2022
  - Version 18.0.0 is available now on **LinkLab**
 
