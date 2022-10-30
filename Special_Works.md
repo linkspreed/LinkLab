@@ -1,3 +1,6 @@
+### 30.10.2022 (announcement Linklab)
+- We've run a few tests of **Linklab**'s implementations on other websites and are proud to confirm that all **Linklab**'s implementation offerings work flawlessly.
+
 ### 23.10.2022 (announcement LinkLab)
 - https://github.com/linkspreed/LinkLab/blob/main/changelog.md
 - The entire changelog is now available on Github.
