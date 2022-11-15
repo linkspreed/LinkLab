@@ -1,3 +1,6 @@
+### 15.11.2022 (announcement LinkLab)
+- In the next update of **LinkLab** we will introduce the animated banners! 😍
+
 ### 15.11.2022 (announcement Linklab)
 - We are working on many new updates - also on an update for **Linklab** :D
 
