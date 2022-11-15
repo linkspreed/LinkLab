@@ -1,3 +1,6 @@
+### 15.11.2022 (announcement Linklab)
+- We are working on many new updates - also on an update for **Linklab** :D
+
 ### 30.10.2022 (announcement Linklab)
 - We've run a few tests of **Linklab**'s implementations on other websites and are proud to confirm that all **Linklab**'s implementation offerings work flawlessly.
 
