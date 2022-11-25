@@ -1,3 +1,6 @@
+### 25.11.2022 (announcement LinkLab)
+-  **LinkLab** gets a big update today - we are going to launch v20.0.0. 😍
+
 ### 15.11.2022 (announcement LinkLab)
 - In the next update of **LinkLab** we will introduce the animated banners! 😍
 
