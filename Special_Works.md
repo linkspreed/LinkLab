@@ -1,4 +1,7 @@
 ### 25.11.2022 (announcement LinkLab)
+- We are now starting the launch of v20.0.0.
+
+### 25.11.2022 (announcement LinkLab)
 - The servers are now ready for the launch of version 20.0.0 for **LinkLab**.
 
 ### 25.11.2022 (announcement LinkLab)
