@@ -1,4 +1,9 @@
 ### 25.11.2022 (announcement LinkLab)
+- The launch of version 20.0.0 of **LinkLab** was successful! 🥳
+- The new update is live now :)
+- https://linklab.ga 🔗
+
+### 25.11.2022 (announcement LinkLab)
 - We are now starting the launch of v20.0.0.
 
 ### 25.11.2022 (announcement LinkLab)
