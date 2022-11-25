@@ -1,4 +1,7 @@
 ### 25.11.2022 (announcement LinkLab)
+- The code is now ready for the launch of version 20.0.0 for **LinkLab**.
+
+### 25.11.2022 (announcement LinkLab)
 -  **LinkLab** gets a big update today - we are going to launch v20.0.0. 😍
 
 ### 15.11.2022 (announcement LinkLab)
