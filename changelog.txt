@@ -1,3 +1,41 @@
+Update 20.0.0 - 25 November, 2022
+
+Implemented new Whatapp Chat widget for the Pro Notifications plugin.
+Implemented interval animation settings for all notifications.
+Implemented Turnstile Cloudflare captcha system.
+Implemented Code Redeemed webhook in the admin panel.
+Implemented user deletion email notification for admins.
+Implemented unconfirmed users auto deletion feature, configurable via the admin panel.
+Implemented a better color picker for all color type inputs.
+Reworked the whole notification settings page for better UI & UX.
+Added CTR percentage for notification statistics.
+Reworked the admin panel language translation pages for better clarity and also performance.
+Improved performance of the whole script & cron job by not running queries to the database when not needed.
+Now you can also upload Webp images in most image upload related forms.
+Improved theme switcher: now the logo will automatically switch as well.
+Blog category pages now also show a sidebar with widgets, for consistency purposes.
+The New Users Webhook now sends the source data of the creation of the user as well.
+The New Payments Webhook now sends the plan expiration date as well.
+Taxes set from the admin panel can now contain decimals.
+Fixed blog post opengraph image not working properly.
+Reworked the Paddle implementation to work with the new API changes.
+
+Update 19.0.0 - 3 October, 2022
+
+Reworked the admin panel user view page to see all the details available for a user account.
+Implemented the ability to see the source of registration of an account (social, API, normal).
+Improved file input type fields: now it will specify the maximum size allowed.
+Improved all file input fields to better looking ones.
+Implemented new payments webhook in the admin panel.
+Now you can install the product and use it on PHP 8.1 as well (please report if there are any related bugs).
+Updated some external libraries to their latest versions.
+Blog posts featured image is now considered the opengraph image as well.
+Multiple code cleanups & improvements throughout the product.
+Fixed specific email sending with default webhost settings for Email notifications.
+Fixed Two Factor Auth login not working properly.
+Fixed Custom HTML notification close button not displaying when needed.
+Fixed Notifications/Campaigns duplication feature not considering plan limits.
+
 ## Update 18.0.0 - 19 July, 2022
 
 - Implemented the new Blogging system.
