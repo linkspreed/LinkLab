@@ -1,3 +1,6 @@
+### 18.12.2022 (announcement LinkLab)
+- We're currently working on **LinkLab**.
+
 ### 25.11.2022 (announcement LinkLab)
 - https://github.com/linkspreed/LinkLab/blob/main/changelog.txt
 - The entire changelog is now available on Github.
