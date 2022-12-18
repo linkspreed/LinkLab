@@ -1,4 +1,7 @@
 ### 18.12.2022 (announcement LinkLab)
+- We have updated this plugin: Affiliate Plugin
+
+### 18.12.2022 (announcement LinkLab)
 - We have updated this plugin: Teams Plugin
 
 ### 18.12.2022 (announcement LinkLab)
