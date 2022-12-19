@@ -1,3 +1,6 @@
+### 19.12.2022 (announcement LinkLab)
+-  **LinkLab** gets a big update today - we are going to launch v21.0.0. 😍
+
 ### 18.12.2022 (announcement LinkLab)
 - We have updated this plugin: Affiliate Plugin
 
