@@ -4,7 +4,7 @@ LinkLab ⚙️💜 - create attractive 🎋 and powerful banners for your websit
 
 
 
-## **[Changelog 💜](https://github.com/linkspreed/LinkLab/blob/main/changelog.md)** **Check out the full LinkLab changelog**
+## **[Changelog 💜](https://github.com/linkspreed/LinkLab/blob/main/changelog.txt)** **Check out the full LinkLab changelog**
 ## **[Special Works 👨‍💻](https://github.com/linkspreed/LinkLab/blob/main/Special_Works.md)** **Take a look at what changes we are doing to LinkLab besides development**
 
 
