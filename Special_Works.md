@@ -1,4 +1,8 @@
 ### 26.01.2023 (announcement LinkLab)
+- https://github.com/linkspreed/LinkLab/blob/main/changelog.txt
+- The entire changelog is now available on Github.
+
+### 26.01.2023 (announcement LinkLab)
 - The launch of version 22.0.0 of **LinkLab** was successful! 🥳
 - The new update is live now :)
 - https://linklab.ga 🔗
