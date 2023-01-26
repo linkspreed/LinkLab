@@ -1,3 +1,15 @@
+Update 22.0.0 - 26 January, 2023
+
+Implemented the ability to set Meta keywords for blog posts.
+Implemented the ability to set Meta keywords for individual pages.
+Implemented the ability to toggle the publishing status for blog posts.
+Implemented the ability to toggle the publishing status for individual pages.
+Implemented Order by last updated time filters for all resources.
+Fully reworked the UI of the admin panel.
+Fully reworked the UI of the installation, documentation and updating process to match the new admin panel UI.
+Reworked the Teams plugin to give more customizability regarding permission levels.
+Fixed plans and invoice pages not using custom decimal and thousand separators.
+
 Update 21.0.0 - 19 December, 2022
 
 Implemented the ability to show the plans section on the homepage.
