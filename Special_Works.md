@@ -1,3 +1,6 @@
+### 01.04.2023 (announcement LinkLab)
+- 🚀 Exciting news! 🎉 We're currently in the works of a new update for **LinkLab**! 🤖 Stay tuned for some amazing new features that will make your life even easier! 🔍 #innovation #tech #updates #productivity #automation
+
 ### 26.01.2023 (announcement LinkLab)
 - https://github.com/linkspreed/LinkLab/blob/main/changelog.txt
 - The entire changelog is now available on Github.
