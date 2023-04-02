@@ -1,3 +1,27 @@
+Update 23.0.0 - 01 April, 2023
+
+Implemented MercadoPago one time payments.
+Implemented click tracking for the WhatsApp widget notification.
+Implemented the ability to set a maximum file size for payment proofs on Offline payments.
+On registration, now you will be redirected to a page containing the welcome=user_id URL parameter, for easy conversion management when needed.
+Implemented the ability to trigger the notification URL to open in a new tab/or not for the Button Modal & Video notifications.
+Implemented teams & teams members statistics, viewable from the admin panel.
+Implemented User city & continent tracking, viewable from the admin panel.
+Implemented Admin panel statistics for: Continents, Countries & Devices (including visual map).
+Implemented Admin panel plan duplication feature.
+Implemented user logs city & continent tracking as well.
+Implemented caching for plans making certain pages faster.
+Implemented 1 hour caching for the stats in the landing page making it faster.
+Improved the admin panel codes page to be able to filter redeemed codes and payments.
+Improved the admin panel taxes page to be able to filter payments based on particular used taxes.
+Improved YooKassa payment gateway to support the receipt parameter.
+Updated User API Admin endpoint with all the user details.
+Updated Admin User View page to display more user details.
+Improved the chart UI in certain scenarios when having a lot of dates selected.
+Improved the preview of notifications when creating a new notification and having a custom branding set on the particular campaign.
+Fixed API GET requests not working with the results_per_page parameter.
+Multiple other code cleanups and improvements.
+
 Update 22.0.0 - 26 January, 2023
 
 Implemented the ability to set Meta keywords for blog posts.
