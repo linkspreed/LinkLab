@@ -1,3 +1,17 @@
+Update 24.0.0 - 13 May, 2023
+
+Implemented the new Broadcasts system which allows you to easily send bulk emails to your users.
+Implemented the ability to set the amount of days when the system should send a plan expiry reminder, via the admin panel.
+Implemented the ability to completely enable/disable the API system from the admin panel.
+Improved the look of the dashboard and other parts of the software.
+Improved the look of the homepage with animations and styling changes.
+Improved the account settings pages with icons and cleaned up parts of the code.
+Reworked the campaign settings regarding subdomain inclusion to a more easier one.
+Updated the MaxMind countries & cities detection databases to their latest versions.
+Improved API documentation pages with a good looking code highlighter.
+Fixed some notification widget animations not working properly.
+Other small improvements and new modifications to fit the new broadcasts system.
+
 Update 23.0.0 - 01 April, 2023
 
 Implemented MercadoPago one time payments.
