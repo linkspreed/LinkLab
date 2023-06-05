@@ -1,3 +1,9 @@
+### 06.06.2023 (announcement LinkLab)
+- 🚀🌐 Good news! LinkLab is back online and accessible at https://linklab.gq! 💻👨‍💻 Are you ready to explore our platform and connect with fellow professionals? 🔍💬 #LinkLab #Networking #OnlineCommunity #Tech #DigitalTransformation
+
+### 06.06.2023 (announcement LinkLab)
+- 🔴 Bad news: LinkLab platform is currently offline due to deletion of 7 million .ga TLD domains. 😞 But fear not, our team is working hard to bring it back online. 💪 Check our Github for more updates and info. ❓ #LinkLab #WebsiteOutage #TechProblems 🌐💻
+
 ### 13.05.2023 (announcement LinkLab)
 - 🎉 We're thrilled to announce that v24.0.0 of LinkLab now provides all users - existing and new - with FREE access to our API system, complete with extensive documentation 📚 #API #DeveloperTools
 Have you explored our API system yet? What features are you most excited to try out? 🤔
