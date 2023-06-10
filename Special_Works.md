@@ -1,3 +1,27 @@
+### 10.06.2023 (announcement LinkLab)
+- 🚨Breaking news!🚨 We are thrilled to announce that LinkLab's Version 25.0.0 is live now!🎉 Check out the latest update on Github and let us know what you think🤔 #LinkLab #Update #Github #Tech Have you already tried the new version of LinkLab? Let us know your thoughts in the comments below.👇
+
+### 10.06.2023 (announcement LinkLab)
+-  https://github.com/linkspreed/LinkLab/blob/main/changelog.txt
+- The entire changelog is now available on Github.
+
+### 10.06.2023 (announcement LinkLab)
+- The launch of version 25.0.0 of **LinkLab** was successful! 🥳
+- The new update is live now :)
+- https://linklab.ga 🔗
+
+### 10.06.2023 (announcement LinkLab)
+- We are now starting the launch of v25.0.0.
+
+### 10.06.2023 (announcement LinkLab)
+- The servers are now ready for the launch of version 25.0.0 for **LinkLab**.
+
+### 10.06.2023 (announcement LinkLab)
+- The code is now ready for the launch of version 25.0.0 for **LinkLab**.
+
+### 10.06.2023 (announcement LinkLab)
+-  **LinkLab** gets a big update today - we are going to launch v25.0.0 . 😍
+
 ### 06.06.2023 (announcement LinkLab)
 - 🚀🌐 Good news! LinkLab is back online and accessible at https://linklab.gq! 💻👨‍💻 Are you ready to explore our platform and connect with fellow professionals? 🔍💬 #LinkLab #Networking #OnlineCommunity #Tech #DigitalTransformation
 
