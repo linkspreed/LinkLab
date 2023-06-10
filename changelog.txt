@@ -1,3 +1,9 @@
+Update 25.0.0 - 10 June, 2023
+
+Implemented OpenAI API - Auto translation for the Languages section in the admin panel.
+Implemented the ability to customize the whole bootstrap theme colors via the admin panel.
+Implemented tooltips over the Create buttons (ex: Notification create button) where the usage & limits of your current plans are shown.
+
 Update 24.0.0 - 13 May, 2023
 
 Implemented the new Broadcasts system which allows you to easily send bulk emails to your users.
