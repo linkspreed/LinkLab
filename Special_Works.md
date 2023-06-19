@@ -1,3 +1,6 @@
+### 19.06.2023 (announcement LinkLab)
+- 🎉 Exciting News! 🎉 We've just added LinkLab to our Subdomain system 🚀 Check it out 👉 https://linklab.gq now redirects to https://linklab.linkspreed.com. But don't worry, everything is still the same for you! 👍 Have you already tried it out? Let us know in the comments below! 👇 #LinkLab #Subdomain #TechnicalUpgrade
+
 ### 10.06.2023 (announcement LinkLab)
 - 🚨Breaking news!🚨 We are thrilled to announce that LinkLab's Version 25.0.0 is live now!🎉 Check out the latest update on Github and let us know what you think🤔 #LinkLab #Update #Github #Tech Have you already tried the new version of LinkLab? Let us know your thoughts in the comments below.👇
 
