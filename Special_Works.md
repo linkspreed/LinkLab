@@ -1,3 +1,27 @@
+### 20.07.2023 (announcement LinkLab)
+- 📢 Hey LinkLab users! We're thrilled to announce the release of Version 26.0.0 of our amazing software! 🎉🚀 It comes with several exciting features and improvements! 😍🔥 Have you updated yet? Share your thoughts and let us know what you think! #LinkLab #SoftwareUpdate 💻💡 What's your favorite feature in this new version? 👀
+
+### 20.07.2023 (announcement LinkLab)
+-  https://github.com/linkspreed/LinkLab/blob/main/changelog.txt
+- The entire changelog is now available on Github.
+
+### 20.07.2023 (announcement LinkLab)
+- The launch of version 26.0.0 of **LinkLab** was successful! 🥳
+- The new update is live now :)
+- https://linklab.ga 🔗
+
+### 20.07.2023 (announcement LinkLab)
+- We are now starting the launch of v26.0.0.
+
+### 20.07.2023 (announcement LinkLab)
+- The servers are now ready for the launch of version 26.0.0 for **LinkLab**.
+
+### 20.07.2023 (announcement LinkLab)
+- The code is now ready for the launch of version 26.0.0 for **LinkLab**.
+
+### 20.07.2023 (announcement LinkLab)
+-  **LinkLab** gets a big update today - we are going to launch v26.0.0 . 😍
+
 ### 19.06.2023 (announcement LinkLab)
 - 🎉 Exciting News! 🎉 We've just added LinkLab to our Subdomain system 🚀 Check it out 👉 https://linklab.gq now redirects to https://linklab.linkspreed.com. But don't worry, everything is still the same for you! 👍 Have you already tried it out? Let us know in the comments below! 👇 #LinkLab #Subdomain #TechnicalUpgrade
 
