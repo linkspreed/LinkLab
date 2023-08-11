@@ -1,3 +1,23 @@
+Update 27.0.0 - 10 August, 2023
+
+Implemented the ability to change the referral key to a custom one.
+Implemented the ability to enable/disable blog system sections: popular widget, views, categories widget, whole system.
+Implemented the ability to enable/disable pages system sections: popular widget, views, whole system.
+Implemented the ability to enable/disable testimonials section in the landing page via the admin panel.
+Implemented new blocks type editor for the Pages & Blog articles creation page.
+Implemented new blocks type editor for the Broadcasting system.
+Implemented Spintax compatibility with Internal notifications & Broadcasting system.
+Reworked the languages system to improve the way languages are updated on future versions and SEO regarding the language switching mechanism.
+Improved the blog article edit / create page look.
+Improved the page edit / create page look.
+Improved the broadcasted emails - now you can mark a newsletter as a system email (mandatory) which will now show the unsubscribe button.
+Improved the broadcasted emails - now the user phishing code will show in there as well.
+Improved the caching on some pages that results in further performance improvements.
+Improved the blog category and pages category parts when there are no posts to display.
+Improved the language translation system to show you potential translation errors when dealing with variables.
+Changed the referral key parameter from ?referral_key= to ?ref=.
+Fixed internal notifications page not working properly.
+
 Update 26.0.0 - 20 July, 2023
 
 Implemented new internal notifications system for users and admins.
