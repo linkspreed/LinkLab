@@ -1,3 +1,27 @@
+### 11.08.2023 (announcement LinkLab)
+- 📢 Exciting news! 🎉 We are thrilled to announce that LinkLab Version 27.0.0 is now live! 🚀🌐 Check out the Patch Notes on Github and explore the latest features and improvements. Have you already tried it out? Let us know your thoughts! 😊 #LinkLab #SoftwareUpdate #NewRelease
+
+### 11.08.2023 (announcement LinkLab)
+-  https://github.com/linkspreed/LinkLab/blob/main/changelog.txt
+- The entire changelog is now available on Github.
+
+### 11.08.2023 (announcement LinkLab)
+- The launch of version 27.0.0 of **LinkLab** was successful! 🥳
+- The new update is live now :)
+- https://linklab.ga 🔗
+
+### 11.08.2023 (announcement LinkLab)
+- We are now starting the launch of v27.0.0.
+
+### 11.08.2023 (announcement LinkLab)
+- The servers are now ready for the launch of version 27.0.0 for **LinkLab**.
+
+### 11.08.2023 (announcement LinkLab)
+- The code is now ready for the launch of version 27.0.0 for **LinkLab**.
+
+### 11.08.2023 (announcement LinkLab)
+-  **LinkLab** gets a big update today - we are going to launch v27.0.0. 😍
+
 ### 20.07.2023 (announcement LinkLab)
 - 📢 Hey LinkLab users! We're thrilled to announce the release of Version 26.0.0 of our amazing software! 🎉🚀 It comes with several exciting features and improvements! 😍🔥 Have you updated yet? Share your thoughts and let us know what you think! #LinkLab #SoftwareUpdate 💻💡 What's your favorite feature in this new version? 👀
 
