@@ -1,3 +1,20 @@
+Update 28.0.0 - 08 October, 2023
+
+Implemented the ability to enable/disable the theme switcher from the footer.
+Implemented FAQ block on the homepage which can be enabled from the admin panel.
+Improved announcements look on the frontend.
+Improved look on plans page.
+Improved look on affiliate page.
+Improved look on the call to action widget on the home page.
+Improved look on plan payment thank you page.
+Improved look and how internal notifications widget works.
+Upgraded from FontAwesome 5 to FontAwesome 6.
+LinkedIn login transitioned to the new version required by LinkedIn.
+Added support for PHP 8.2.
+Added the new Threads social network in the footer - from the admin panel.
+Fixed broadcasts new editor variables not working properly.
+Other overall look and feel improvements.
+
 Update 27.0.0 - 10 August, 2023
 
 Implemented the ability to change the referral key to a custom one.
