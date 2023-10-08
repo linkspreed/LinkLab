@@ -1,3 +1,27 @@
+### 08.10.2023 (announcement LinkLab)
+- LinkLab 28.0.0 is here! 🥳 What new features are you most excited about? 🤔 #LinkLab #IoT #NewVersion
+
+### 08.10.2023 (announcement LinkLab)
+-  https://github.com/linkspreed/LinkLab/blob/main/changelog.txt
+- The entire changelog is now available on Github.
+
+### 08.10.2023 (announcement LinkLab)
+- The launch of version 28.0.0 of **LinkLab** was successful! 🥳
+- The new update is live now :)
+- https://linklab.ga 🔗
+
+### 08.10.2023 (announcement LinkLab)
+- We are now starting the launch of v28.0.0.
+
+### 08.10.2023 (announcement LinkLab)
+- The servers are now ready for the launch of version 28.0.0 for **LinkLab**.
+
+### 08.10.2023 (announcement LinkLab)
+- The code is now ready for the launch of version 28.0.0 for **LinkLab**.
+
+### 08.10.2023 (announcement LinkLab)
+-  **LinkLab** gets a big update today - we are going to launch v28.0.0. 😍
+
 ### 11.08.2023 (announcement LinkLab)
 - 📢 Exciting news! 🎉 We are thrilled to announce that LinkLab Version 27.0.0 is now live! 🚀🌐 Check out the Patch Notes on Github and explore the latest features and improvements. Have you already tried it out? Let us know your thoughts! 😊 #LinkLab #SoftwareUpdate #NewRelease
 
