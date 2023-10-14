@@ -1,4 +1,4 @@
-# <img align="left" alt="LinkLab" width="40px" src="https://linklab.gq/uploads/logo/9dc6a0c92e068ba9ed684f0ce66b434b.png" draggable="false" /> LinkLab ([Click to try 🚀](https://linklab.gq)) (v28.0.0)
+# <img align="left" alt="LinkLab" width="40px" src="https://linklab.gq/uploads/logo/9dc6a0c92e068ba9ed684f0ce66b434b.png" draggable="false" /> LinkLab ([Click to try 🚀](https://linklab.gq)) (v29.0.0)
 
 LinkLab ⚙️💜 - create attractive 🎋 and powerful banners for your website 🌐
 
