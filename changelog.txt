@@ -1,3 +1,56 @@
+Update 31.0.0 - 19 December, 2023
+
+Extended licenses holders ✨
+
+✅ You must set your available payment currencies in the Admin panel - Settings - Payment page
+✅ You must set your available payment currencies in the Admin panel - Settings - Payment processors page
+✅ You must set your payment plan prices in the Admin panel - Plans - Plan update page
+✅ You must update the PWA plugin files if you have it installed.
+
+ Implemented SSO (Single Sign On) support where you can automatically switch between AltumCode software installations with a single click of a button.
+ Implemented Multicurrency support for payments.
+ Implemented the ability to set default payment processor on a per-currency basis.
+ Implemented the ability to set allowed currencies on a per-payment-gateway basis.
+ Implemented Midtrans payment gateway for one time payments.
+ Implemented Yizico payment gateway for one time payments.
+ Implemented Flutterwave payment gateway for one time & recurring payments.
+ Implemented the ability to enable/disable the password requirement when first logging in via a social network.
+ Implemented a subtle prompt to install the PWA app with instructions based on the device for the PWA plugin.
+ Implemented a new "Health check" page in the admin panel - settings section.
+ A better looking custom scrollbar is now applied on all widgets that are scrollable.
+ Improved the looks of the "Logged in as Team" bar at the top of the page for the Teams plugin.
+ Upgraded bootstrap CSS/JS to latest v4.6.2.
+ Push notification subscription modal will now only automatically show to the user if their browser is compatible for the Push Notifications plugin.
+ Improved performance of the Pixel widgets tracking module.
+ Fix pay page not having default values selected in some cases.
+ Fix ad blocker detector not working properly.
+ Fix live counter widget not working properly.
+ Fix some caching issues for the total notifications number.
+
+
+Update 30.0.0 - 19 December, 2023
+
+Minimum PHP requirement is now PHP 8.0 instead of PHP 7.4.
+ Implemented & Released the new Push Notifications Plugin.
+ Implemented the ability to set a custom start URL - PWA plugin.
+ Implemented notification badges for installed PWA instances in case the user has an internal notification pending - PWA plugin.
+ Implemented the ability to set preview screenshots for mobile and desktop when installing the PWA of the app - PWA plugin.
+ Implemented the ability to set shortcuts for contextual menu on the PWA app - PWA plugin.
+ Implemented admin panel statistics page for Internal notifications sent.
+ Implemented new filters for users logs: device type filter, city search, continent filter, country search, browser name and browser language.
+ Implemented new custom select component with search for the frontend and admin panel.
+ Implemented admin panel new details and filters for each user based on last login: OS Name, Browser language, Device type.
+ Implemented admin panel new filter for broadcasts: device type.
+ Implemented admin panel new filter for internal notifications: device type.
+ Implemented the ability to change the default payment frequency selected, via the admin panel.
+ Implemented the ability to transfer Campaigns to other accounts, via the admin panel.
+ The ad blocker detector will only be triggered when a user is not logged in and does not have the No ads plan feature.
+ Cleaned up and optimized duplicated translations.
+ Admin panel taxes can now be deleted in case they are created by mistake.
+ Implemented the ability to set a custom delay for the ad blocker detector modal via the admin panel.
+ Fix internal notifications URL destination bug.
+
+
 Update 29.0.0 - 14 October, 2023
 
  Implemented & Released the new PWA Plugin.
